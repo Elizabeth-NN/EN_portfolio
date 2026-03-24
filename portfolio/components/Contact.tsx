@@ -31,8 +31,8 @@ export default function Contact() {
             <div className={styles.info}>
               <div className={styles.infoLine}>
                 <span className="muted">email</span>
-                <a href="mailto:hi@yourname.dev" className={styles.infoVal}>
-                  hi@yourname.dev
+                <a href="mailto:hi@elizabethnjuguna.dev" className={styles.infoVal}>
+                  hi@elizabethnjuguna.dev
                 </a>
               </div>
               <div className={styles.infoLine}>
@@ -70,7 +70,7 @@ export default function Contact() {
                   <input
                     className={styles.input}
                     type="text"
-                    placeholder="Your full name"
+                    placeholder="elizabethnjuguna"
                     value={form.name}
                     onChange={e => setForm({ ...form, name: e.target.value })}
                     required
@@ -85,7 +85,7 @@ export default function Contact() {
                   <input
                     className={styles.input}
                     type="email"
-                    placeholder="you@example.com"
+                    placeholder="elizabethnjuguna217@gmail.com"
                     value={form.email}
                     onChange={e => setForm({ ...form, email: e.target.value })}
                     required

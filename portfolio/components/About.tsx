@@ -9,7 +9,6 @@ const STATS = [
 
 const INTERESTS = [
   'Compilers & language design',
-  'Distributed systems',
   'Developer tooling',
   'Performance optimization',
   'Open source',

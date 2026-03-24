@@ -20,7 +20,7 @@ export default function Navbar() {
       <div className={styles.inner}>
         <a href="#hero" className={styles.logo}>
           <span className={styles.cursor}>▮</span>
-          <span>YN.dev</span>
+          <span>elizabethNjuguna.dev</span>
         </a>
         <div className={styles.links}>
           <a href="#work">./work</a>

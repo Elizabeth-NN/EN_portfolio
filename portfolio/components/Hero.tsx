@@ -4,7 +4,7 @@ import styles from './Hero.module.css'
 
 const LINES = [
   '> initializing portfolio.exe...',
-  '> loading modules: [react] [node] [postgres] [rust]',
+  '> loading modules: [react] [node] [postgres] [python]',
   '> running self_destruct() ... just kidding.',
   '> ready.',
 ]
@@ -47,7 +47,7 @@ export default function Hero() {
         </div>
 
         <h1 className={styles.headline}>
-          <span className={styles.glitch} data-text="Your Name">Your Name</span>
+          <span className={styles.glitch} data-text="Elizabeth Njuguna">Elizabeth Njuguna</span>
           <br />
           <span className={styles.sub}>
             Full-Stack <span className="accent">Engineer</span>
